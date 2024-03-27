@@ -41,6 +41,7 @@ if images:
     image = images[0].to_image()
     image.save("generated_image.png")
 ```
+<img src="https://github.com/maxim-popkov/kandy/raw/71d66c203b5c3e7949e3599b843854675093b124/examples/generated_image.png" width="250"/>
 
 # How to obtain Kandinsky API keys on FusionBrain
 1. Go to [fusionbrain.ai](https://fusionbrain.ai/)
