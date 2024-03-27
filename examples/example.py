@@ -6,7 +6,7 @@ kandy = Kandy(
 )
 
 images = kandy.images.generate(
-    pos_prompt="pet animals",
+    pos_prompt="pet in hat",
     neg_prompt="dog"
 )
 
