@@ -7,7 +7,7 @@ kandy = Kandy(
 
 images = kandy.images.generate(
     pos_prompt="pet in hat",
-    neg_prompt="dog"
+    neg_prompt="cats"
 )
 
 if images:
