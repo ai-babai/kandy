@@ -33,8 +33,8 @@ from kandy import Kandy
 kandy = Kandy(api_key="your_api_key", secret_key="your_secret_key")
 
 images = kandy.images.generate(
-    pos_prompt="positive prompt",
-    neg_prompt="negative prompt"
+    pos_prompt="pet in hat", # positive prompt
+    neg_prompt="cats" # negative prompt
 )
 
 if images:
