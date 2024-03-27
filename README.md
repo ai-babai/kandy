@@ -19,11 +19,7 @@ For working with the Kandinsky SDK, you need to obtain API keys. You can registe
 
 ## Installation
 
-```bash
-pip install requests Pillow
-```
-
-Or install directly from the GitHub repository:
+Install directly from the GitHub repository:
 
 ```bash
 pip install git+https://github.com/maxim-popkov/kandy.git
