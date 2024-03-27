@@ -22,7 +22,7 @@ For working with the Kandinsky SDK, you need to obtain API keys. You can registe
 Install directly from the GitHub repository:
 
 ```bash
-pip install git+https://github.com/maxim-popkov/kandy.git
+pip install --upgrade git+https://github.com/maxim-popkov/kandy.git
 ```
 
 ## Usage
