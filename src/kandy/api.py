@@ -33,7 +33,7 @@ class Text2ImageAPI:
             'model_id':(None, model),
             'params': (None, json.dumps(params), 'application/json')
         }
-        print(data)
+        # print(data)
         response = self.session.post(self.URL + 'key/api/v1/text2image/run', files=data)
         response.raise_for_status()
         return response.json()['uuid']

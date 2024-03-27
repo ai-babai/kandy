@@ -1,1 +1,0 @@
-kandinsky cliend sdk

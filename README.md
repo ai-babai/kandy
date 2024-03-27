@@ -1,7 +1,8 @@
 # Simple Kandinsky Python SDK
 
-Kandinsky:
-https://fusionbrain.ai/
+For working with the Kandinsky SDK, you need to obtain API keys. You can register and receive your keys on the official Fusion Brain website, where the Kandinsky service is available. Follow the link below to get your keys:
+
+[Kandinsky on FusionBrain](https://fusionbrain.ai/)
 
 ## Components
 
@@ -22,10 +23,16 @@ https://fusionbrain.ai/
 pip install requests Pillow
 ```
 
+Or install directly from the GitHub repository:
+
+```bash
+pip install git+https://github.com/maxim-popkov/kandy.git
+```
+
 ## Usage
 
 ```python
-from client import Kandy
+from kandy import Kandy
 
 kandy = Kandy(api_key="your_api_key", secret_key="your_secret_key")
 
@@ -39,12 +46,8 @@ if images:
     image.save("generated_image.png")
 ```
 
-
-Для работы с SDK Kandinsky необходимо получить API ключи. Вы можете зарегистрироваться и получить свои ключи на официальном сайте Fusion Brain, где доступен сервис Kandinsky. Перейдите по ссылке ниже для получения ключей:
-
-
-# Как получить ключи для Api Kandinsky на FusionBrain
-1. Перейдите на сайт [fusionbrain.ai](https://fusionbrain.ai/)
-2. Зарегистрируйтесь или войдите в свой аккаунт.
-3. Найдите слева раздел API для получения ключей для Kandinsky.
-4. Следуйте инструкциям на сайте для генерации вашего персонального API ключа и секретного ключа.
+# How to obtain Kandinsky API keys on FusionBrain
+1. Go to [fusionbrain.ai](https://fusionbrain.ai/)
+2. Register or log into your account.
+3. Find the API section on the left to obtain keys for Kandinsky.
+4. Follow the instructions on the site to generate your personal API key and secret key.
