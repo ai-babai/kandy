@@ -228,3 +228,6 @@ $RECYCLE.BIN/
 *.img
 *.ttf
 *.zip
+
+# examples
+!examples/generated_image.png
